@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    font-family: 'Roboto', sans-serif;
+    background-color: #404040;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #FCFCFC;
+  letter-spacing: -1px;
+  padding: 1rem;
+}
+
+li {
+    color: #FCFCFC;
+}
+
+h1 {
+    font-size: 4.5em;
+    color: #FCFCFC;
+    margin: auto;
+}
+
+h2 {
+    font-size: 3em;
+    color: #FCFCFC;
+    padding: 0.5rem;
+}
+
+h3 {
+    font-size: 2.3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+ul,ol,dl {
+  font-size: 1.5rem;
+}
+
+li {
+    margin-bottom: .7ex;
+}
+
+li > ul {
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+}
+
+.code {
+    background-color: #f7f7f7;
+    padding: 1.5rem;
+    border-radius: 2px;
+}
+
+.code > span {
+    background-color: inherit;
+    font-family: Monaco, monospace;
+    font-size: 1.5rem;
+}
+
+.code > .s {
+    color: #383737;
+}
+
+.step {
+    width: 1600px;
+}
+
+img {
+    border-radius: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    float: right;
+    clear: right;
+    max-width: 50%;
+    margin-left: 16px;
+    vertical-align: middle;
+    padding: 16px;
+    background-color: #f7f7f7;
+}
+
+a {
+    color: #D0D0D0;
+}
+
+tt {
+    font-family: Monaco, monospace;
+}
+
+.fullscreen-image-class img {
+    float: none;
+    clear: both;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+
+img.big {
+    max-width: 65%;
+}
+
+img.inline {
+    display: inline-block;
+    float: none;
+    clear: none;
+    margin: 4px;
+}

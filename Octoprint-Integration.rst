@@ -33,12 +33,23 @@ Agenda
 Octoprint
 ---------
 
-* Druckserver zur Steuerung von 3D Druckern via USB
+* Druckserver zur Steuerung von 3D Druckern
 * Linux/Windows/Mac
 * entwickelt seit 2012 von Gina Häußge (@fossel)
-* Gratis Sofware mit Donation
+* Open-Source Software mit Donation
 
 https://octoprint.org
+
+----
+
+.. image:: images/dieter.jpg
+
+Octoprint Aufbau
+----------------
+
+* Oftmals auf Raspberry Pi installiert (OctoPi)
+* Verbindung zum Drucker via USB
+* Befehle über eine serielle Schnittstelle
 
 ----
 
@@ -50,7 +61,9 @@ Octoprint Standardfunktionen
 * Monitoring und Steuerung beliebiger Drucker
 * Weboberfläche
 * Webcam Monitoring
+* Dateien hochladen (Host + SD Karte)
 * Grundlegende Zeitrafferaufnahmen
+* Plugin-Mechanismus
 
 ----
 
@@ -104,6 +117,7 @@ Home Assistant Integration
 * Monitoring von Temperaturen
 * Monitoring Druckerzustand
 * Druckfortschritt
+* Weitere binäre Sensoren möglich
 
 ----
 
@@ -113,7 +127,8 @@ Home Assistant Integration
 Fazit
 -----
 
-* Grundsätzliches Monitoring möglich
+* Grundsätzliches Monitoring
+* Webcam Stream
 
 Zukunftsmusik
 -------------
